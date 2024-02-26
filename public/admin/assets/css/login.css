@@ -1,0 +1,27 @@
+.navbar .navbar-brand-wrapper .navbar-brand-inner-wrapper .navbar-brand img {
+    width: calc(274px - 104px) !important;
+    max-width: 100%;
+    height: 52px !important;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.nav_bar {
+    background: #fff !important;
+}
+
+.new_menu {
+    color: #07709F;
+}
+
+.navbar {
+    border-bottom: 4px solid #F15431 !important;
+}
+
+.navbar-breadcrumb {
+    background: #0B9BC5 !important;
+}
+
+/* .page_banner {
+    background-image: url(../../images/logo/login_banner.png) !important;
+} */

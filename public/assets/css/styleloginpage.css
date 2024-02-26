@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.row.ambulance-login {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+
+.col-6.banner-section {
+    background-image: url(../img/Rectangle\ 4.png);
+    background-size: 100% 100%;
+    padding-left: 0;
+    padding-bottom: 50px;
+    color: #fff;
+    position: relative;
+}
+
+.logo {
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.banner-desc {
+    max-width: 517px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.home-banner {
+    max-width: 697px;
+    width: 100%;
+}
+
+.home-banner img {
+    width: 100%;
+}
+
+.form-check-input:checked {
+    background-color: #EA4436;
+    border-color: #EA4436;
+}
+
+.col-6.input-field h2 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #EA4436;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+.input-container input {
+    width: 350px;
+}
+
+/* Set a style for the submit button */
+.btn {
+    text-decoration: none;
+    background: #EA4436;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 20px;
+
+}
+
+.btn:hover {
+    opacity: 1;
+    background: #EA4436;
+    color: #fff;
+}
+
+login-type-containers {
+    margin: 0px auto;
+    max-width: 430px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-type-container {
+    max-width: 430px;
+    width: 100%;
+    margin: 33px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loging-type.form-check .form-check-input {
+    float: right;
+    margin-left: -1.5em;
+}
+
+a.link_center {
+    text-align: center;
+    display: block;
+}
+
+.loging-type {
+    width: 100%;
+    box-shadow: 0px 7.320596694946289px 19.21656608581543px 0px #00000029;
+    border-radius: 20px;
+    padding: 15px;
+
+    margin-top: 25px;
+}
+
+.divader {
+    text-align: center;
+    padding: 30px;
+}
+
+h6.login_others:before {
+    content: '';
+    position: absolute;
+    width: 230px;
+    display: inline-block;
+    background: gray;
+    padding: 0.1px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h6.login_others:after {
+    content: '';
+    position: absolute;
+    width: 230px;
+    display: inline-block;
+    background: grey;
+    padding: 0.1px;
+    right: 0;
+    top: 50%;
+    border-width: 1px solid red;
+    transform: translateY(-50%);
+}
+
+h6.login_others {
+    position: relative;
+}
+
+.log_div {
+    background: F0EDFF;
+    border-radius: 2px;
+    border: 1px solid #F0EDFF
+}
+
+.loging-type p {
+    margin: 0;
+}
+
+a.continue-btn {
+    text-decoration: none;
+    background: #EA4436;
+    color: #fff;
+    padding: 15px 60px;
+    border-radius: 20px;
+    /* text-align: center; */
+}
+
+.button-container {
+
+    text-align: center;
+}
+
+
+label.form-check-label {
+    font-weight: 700;
+}
+
+label.form-check-label a {
+    color: #1C1C1C;
+    font-weight: 600;
+}
+
+img.down-side {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 11111;
+}
+
+img.upper-side {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+button.continue-btn.login-btn {
+    text-decoration: none;
+    background: #EA4436;
+    color: #fff;
+    padding: 15px 60px;
+    border-radius: 20px;
+    border: none;
+}
+
+.login-type-container p {
+    width: 100%;
+    text-align: left;
+}
+
+.form-check.loging-type.log-type input,
+.form-check.loging-type.log-type label {
+    pointer-events: none;
+}
+
+.login-type-container>a {
+    width: 100%;
+    cursor: pointer;
+    color: #000;
+}

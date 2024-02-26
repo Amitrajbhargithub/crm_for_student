@@ -1,0 +1,45 @@
+.card-image img {
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+}
+.card .card-profile {
+    padding: 1.5rem 1.8rem;
+    border-bottom: 1px solid #00000024;
+    margin-bottom: 10px;
+}
+
+.card .card-description {
+    padding: 1.5rem 1.8rem;
+    border-top: 1px solid #00000024;
+    margin-top: 10px;
+}
+
+.card .inactive {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.card .active {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.card .alert-warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+
+.card select {
+    border: 1px solid #ced4da;
+    color: black;
+}
+
+.card .panel-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
